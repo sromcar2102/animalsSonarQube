@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+    <h1>Protectora de animales</h1>
+  </header>
+
+  <select name="select" id="view">
+    <option value="1">Cuadricula</option>
+    <option value="2">Lista</option>
+  </select>
+
+  <div class="container">
+    <main id="root"></main>
+    <aside id="aside">
+      <form id="formAnimal" class="register-form" data-id="">
+        <h2>Animal</h2>
+
+        <section>
+          <label for="ID">ID:</label>
+          <input disabled type="text" name="animalId" id="animalId">
+          <input disabled type="text" name="image" id="animalImage">
+        </section>
+
+        <article>
+          <label for="name">Nombre: </label>
+          <input type="text" id="name" name="name">
+        </article>
+        <article>
+          <label for="birthDate">Fecha de Nacimiento: </label>
+          <input type="date" id="birthDate" name="birthDate">
+        </article>
+
+        <section>
+          <label for="gender">Género: </label>
+          <article>
+            <input type="radio" data-gender="M" name="gender" value="M"><label for="male">Macho</label>
+            <input type="radio" data-gender="F" name="gender" value="F"><label for="female">Hembra</label>
+          </article>
+        </section>
+
+        <section>
+          <label for="size">Tamaño: </label>
+          <select name="size" id="size">
+            <option data-size="S" value="S">Pequeño</option>
+            <option data-size="M" value="M">Mediano</option>
+            <option data-size="L" value="L">Grande</option>
+          </select>
+        </section>
+
+        <section>
+          <label for="breed">Raza: </label>
+          <input type="text" id="breed" name="breed">
+        </section>
+
+        <section>
+          <label for="vaccines">Vacunas: </label>
+          <select name="vaccines" id="vaccines">
+            <option></option>
+          </select>
+        </section>
+        
+        <section>
+          <span id="add" class="button">Crear</span>
+          <span id="update" class="button">Actualizar</span>
+        </section>
+
+      </form>
+      <form id="formVaccine" class="register-form">
+        <h2>Vacuna</h2>
+        <section>
+            <label for="nameVaccine">Nombre:</label>
+            <input type="text" name="nameVaccine" id="nameVaccine">
+        </section>
+        <span id="create" class="create enabled"><i class="fa-solid fa-syringe"></i></i>CREAR</span><br>
+        <span id="show" class="create enabled"><i class="fa-solid fa-syringe"></i>VER VACUNAS</span>
+    </form>
+    </aside>
+  </div>
+  <link rel="stylesheet" href="./assets/styles/styles.css" />
+</body>
+<script type="module" src="./app.ts"></script>
+
+</html>

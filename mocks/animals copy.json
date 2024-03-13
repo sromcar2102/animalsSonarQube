@@ -1,0 +1,108 @@
+{
+  "animals": [
+    {
+      "image": "retriever.png",
+      "id": "f8b4a462-11c4-4a4b-88f4-aa5e51f94784",
+      "name": "Barky",
+      "birthDate": "05/15/2022",
+      "gender": "M",
+      "size": "L",
+      "breed": "Labrador Retriever",
+      "kind": "dog",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/20/2023"
+    },
+    {
+      "image": "siamese.png",
+      "id": "9a1b2c3d-4e5f-6a7b-8c9d-1e2f3g4h5i6",
+      "name": "Whisk",
+      "birthDate": "03/10/2020",
+      "gender": "F",
+      "size": "M",
+      "breed": "Siamese",
+      "kind": "cat",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/15/2023"
+    },
+    {
+      "image": "beagle.png",
+      "id": "2f4c7b0f-c3b9-4e5f-8a6b-9c1d2e3f4g5h",
+      "name": "Waggy",
+      "birthDate": "08/20/2021",
+      "gender": "M",
+      "size": "S",
+      "breed": "Beagle",
+      "kind": "dog",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/23/2023"
+    },
+    {
+      "image": "aleman.png",
+      "id": "8e9f0g1h-2i3j4k5l6m7n8o9p0",
+      "name": "Fluff",
+      "birthDate": "12/11/2020",
+      "gender": "M",
+      "size": "L",
+      "breed": "German Shepherd",
+      "kind": "dog",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/23/2023"
+    },
+    {
+      "image": "abisinio.png",
+      "id": "5h6i7j8k-9l0m1n-2o3p4q5r6s7t8u9v0",
+      "name": "Meowster",
+      "birthDate": "05/04/2021",
+      "gender": "M",
+      "size": "M",
+      "breed": "Abyssinian",
+      "kind": "cat",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/23/2023"
+    },
+    {
+      "image": "egipcio.png",
+      "id": "v9w0x1y2z3-1o2p3q4-r5s6t7u8v9",
+      "name": "Sphinx",
+      "birthDate": "01/14/2022",
+      "gender": "F",
+      "size": "S",
+      "breed": "Egyptian",
+      "kind": "cat",
+      "vaccines": [],
+      "update_at": "11/23/2023",
+      "create_at": "11/23/2023"
+    }
+  ],
+  "vaccines": [
+    {
+      "id": "2a7a0b0b-4f8f-4d97-8344-8dc583abf302",
+      "name": "Rabies"
+    },
+    {
+      "id": "1a827e76-20d8-45f7-976f-9a87d33228f5",
+      "name": "Distemper"
+    },
+    {
+      "id": "3b4d5e6f-7a8b-4c9d-8e6f-9a1b2c3d4e5f",
+      "name": "Canine Parvovirus"
+    },
+    {
+      "id": "4c5d6e7f-8a9b-4c5d-8e7f-9a1b2c3d4e5f",
+      "name": "Feline Calicivirus"
+    },
+    {
+      "id": "5d6e7f8a-9b4c-5d8e-7f9a-1b2c3d4e5f6",
+      "name": "Feline Leukemia"
+    },
+    {
+      "id": "6a7b8c9d-1e2f-3g4h5i6j7k8l9m0",
+      "name": "Canine Parainfluenza"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #3498db;
+}
+
+select {
+    padding: 8px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+
+select:hover {
+    border-color: #3498db; 
+}
+
+#root {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.card-layout {
+    width: 60vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3vw;
+    padding: 3vw;
+}
+
+.card {
+    background-color: var(--backgroud-color-2);
+    display: inline-block;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: var(--border-radius);
+    border: var(--border);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: 0.2s;
+    position: relative;
+    width: 20rem;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+
+.card div img{
+    margin-left: 33%;
+}
+
+.card img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+td img{
+    max-width: 100%;
+    height: 100px;
+    object-fit: cover;
+    margin: 20px 0;
+}
+
+.card .product-data {
+    width: 100%;
+    background-color: var(--card-color-1);
+    color: var(--font-color-1);
+    border-bottom-right-radius: var(--border-radius);
+    border-bottom-left-radius: var(--border-radius);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.card .product-data h2 {
+    font-size: 20px;
+    background-color: var(--card-color-1);
+    color: var(--font-color-1);
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+}
+
+.info-animal {
+    text-align: center;
+}
+
+.info-animal span{
+    margin: 20px;
+}
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+    background-color: #3498db;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+.btn-update,
+.btn-delete {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 5px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 4px;
+}
+
+.btn-update {
+    background-color: #27ae60;
+}
+
+.btn-delete {
+    background-color: #e74c3c;
+}
+.btn-update,
+.btn-delete {
+    margin-right: 5px;
+}
+
+
+/* --------------------FORMULARIO----------------- */
+#aside {
+    width: 35%; 
+    margin-left: auto; 
+}
+
+.register-form {
+    width: 80%; 
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px; 
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+.register-form input,
+.register-form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.register-form button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #2980b9;
+}
+
+.container {
+    display: flex;
+}
+
